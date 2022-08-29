@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/Microservicios-master.iml" filepath="$PROJECT_DIR$/.idea/Microservicios-master.iml" />
-      <module fileurl="file://$PROJECT_DIR$/zuulApiGateway/demo.iml" filepath="$PROJECT_DIR$/zuulApiGateway/demo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/microservicioB/demo (1).iml" filepath="$PROJECT_DIR$/microservicioB/demo (1).iml" />
-      <module fileurl="file://$PROJECT_DIR$/microservicioA/demo (2).iml" filepath="$PROJECT_DIR$/microservicioA/demo (2).iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka_server/Eureka-Discovery-Server.iml" filepath="$PROJECT_DIR$/eureka_server/Eureka-Discovery-Server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice_a/Microservice-a.iml" filepath="$PROJECT_DIR$/microservice_a/Microservice-a.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice_b/Microservice-b.iml" filepath="$PROJECT_DIR$/microservice_b/Microservice-b.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zuul/Zuul-API-Gateway.iml" filepath="$PROJECT_DIR$/zuul/Zuul-API-Gateway.iml" />
       <module fileurl="file://$PROJECT_DIR$/eurekaDiscoveryService/demo (3).iml" filepath="$PROJECT_DIR$/eurekaDiscoveryService/demo (3).iml" />
-      <module fileurl="file://$PROJECT_DIR$/configServer/demo (4).iml" filepath="$PROJECT_DIR$/configServer/demo (4).iml" />
     </modules>
   </component>
 </project>

@@ -7,11 +7,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="demo (2)" />
-        <module name="demo" />
-        <module name="demo (1)" />
-        <module name="demo (4)" />
+        <module name="Zuul-API-Gateway" />
+        <module name="Microservice-b" />
+        <module name="Eureka-Discovery-Server" />
         <module name="demo (3)" />
+        <module name="Microservice-a" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -20,10 +20,18 @@
       <module name="demo (2)" target="8" />
       <module name="demo (3)" target="8" />
       <module name="demo (4)" target="8" />
+      <module name="Eureka-Discovery-Server" target="11" />
+      <module name="Microservice-a" target="11" />
+      <module name="Microservice-b" target="11" />
+      <module name="Zuul-API-Gateway" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Eureka-Discovery-Server" options="-parameters" />
+      <module name="Microservice-a" options="-parameters" />
+      <module name="Microservice-b" options="-parameters" />
+      <module name="Zuul-API-Gateway" options="-parameters" />
       <module name="demo" options="-parameters" />
       <module name="demo (1)" options="-parameters" />
       <module name="demo (2)" options="-parameters" />

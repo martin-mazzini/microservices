@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
-    <file url="file://$PROJECT_DIR$/configServer/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/configServer/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/eurekaDiscoveryService/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/eurekaDiscoveryService/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/microservicioA/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/microservicioA/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/microservicioB/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/microservicioB/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/zuulApiGateway/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/zuulApiGateway/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka_server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka_server/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice_a/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice_a/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice_b/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice_b/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zuul/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zuul/src/main/resources" charset="UTF-8" />
   </component>
 </project>

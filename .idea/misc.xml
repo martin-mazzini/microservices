@@ -7,7 +7,10 @@
         <option value="$PROJECT_DIR$/microservicioB/pom.xml" />
         <option value="$PROJECT_DIR$/microservicioA/pom.xml" />
         <option value="$PROJECT_DIR$/eurekaDiscoveryService/pom.xml" />
-        <option value="$PROJECT_DIR$/configServer/pom.xml" />
+        <option value="$PROJECT_DIR$/zuul/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka_server/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice_a/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice_b/pom.xml" />
       </list>
     </option>
   </component>
