@@ -18,8 +18,8 @@ public class Test {
 	@Autowired TestBClient testBclient;
 
 
-	@GetMapping("/status")
-	public String test(){
+	@GetMapping("/status/all")
+	public String statusAll(){
 		String responseB = testBclient.getStatus();
 		return "This microservice is listening on port: " + environment.getProperty("local.server.port") +
 				"<br>  Microservice B is " + responseB;
@@ -27,9 +27,9 @@ public class Test {
 
 
 
-	@GetMapping("/getStatus")
-	public String getStatus(){
-		return "listening on port: " + environment.getProperty("local.server.port");
+	@GetMapping("/status")
+	public String status(){
+		return "Listening on port: " + environment.getProperty("local.server.port");
 	}
 
 

@@ -20,16 +20,16 @@ public class Test {
 	@Autowired TestAClient testAclient;
 
 
-	@GetMapping("/status")
-	public String test(){
+	@GetMapping("/status/all")
+	public String statusAll(){
 		String responseA = testAclient.getStatus();
 		return "This microservice is listening on port: " + environment.getProperty("local.server.port") +
 				"<br>  Microservice A is " + responseA;
 	}
 
 
-	@GetMapping("/getStatus")
-	public String getStatus(){
+	@GetMapping("/status")
+	public String status(){
 		return "listening on port: " + environment.getProperty("local.server.port");
 	}
 

@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 public interface TestBClient {
 
 
-	@GetMapping("/test/getStatus")
+	@GetMapping("/test/status")
 	public String getStatus();
 
 }
