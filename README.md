@@ -46,7 +46,9 @@ Both microservices (microservice A and B) listen on random ports for requests, w
 
 
 - Microservice B endpoint: [http://localhost:8011/microserviceb/test/status/all](http://localhost:8011/microserviceb/test/status). Should print
-![image](https://user-images.githubusercontent.com/25701657/187344928-4b83ff7f-1d01-495f-acf3-db89de535bf1.png)
+
+<img width="307" alt="image" src="https://user-images.githubusercontent.com/25701657/187345129-2906a8e4-369b-4927-a99e-27283eddf3a6.png">
+
 
 
 
